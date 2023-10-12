@@ -54,7 +54,7 @@ def smtp_client(port=1025, mailserver='127.0.0.1'):
 
     # Send message data.
     # Fill in start
-    messageData = "Subject: Python Lab 3\r\n" + "This is the message body.\r\n"
+    messageData = "Subject: Python Lab 3\r\n" + "Testing body for email message.\r\n"
     clientSocket.send(messageData.encode())
     # Fill in end
 
